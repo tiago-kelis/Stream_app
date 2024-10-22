@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from django.db import models
+from django.db import models  # noqa: F811
 
 # Create your models here.
 class Video(models.Model):
